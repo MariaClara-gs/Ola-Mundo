@@ -3,4 +3,4 @@
   
   Repositório criado para teste.
 
-  Essa a linha eu adicionei diretamente no site!
+  O programa contido aqui está em desenvolvimento e é somente uma brincadeira.
