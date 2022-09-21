@@ -5,7 +5,6 @@ n = randint(1,2)
 sair = 'a'
 
 print ("Olá, Mundo!")
-sair = str(input("Para sair pressione s."))
 
 while sair != 's':
  if n == 1:
@@ -17,6 +16,6 @@ while sair != 's':
  if n == 2:
    print("Tocando: 2011")
    playsound('2011.mp3')
-   sair = str(input("Sair?"))
+   sair = str(input("Sair?\n*s = sair"))
    n = 0
    n = randint(1,2)
