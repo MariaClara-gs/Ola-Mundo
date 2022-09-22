@@ -18,68 +18,68 @@ while sair != 's':
       numeros.append(n)
       print("\nTocando: Close To You")
       playsound('close.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
       
     if n == 1:
       numeros.append(n)
       print("\nTocando: Honey")
       playsound('honey.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 2:
       numeros.append(n)
       print("\nTocando: 7 Rings")
       playsound('7-rings.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+     
 
     if n == 3:
       numeros.append(n)
       print("\nTocando: Death Bed")
       playsound('powfu.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 4:
       numeros.append(n)
       print("\nTocando: Phobia")
       playsound('phobia.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 5:
       numeros.append(n)
       print("\nTocando: Love Shot")
       playsound('loveshot.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
     
     if n == 6:
       numeros.append(n)
       print("\nTocando: Dream in a Dream ")
       playsound('dream.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 7:
       numeros.append(n)
       print("\nTocando: Shower")
       playsound('shower.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 8:
       numeros.append(n)
       print("\nTocando: Lovers ")
       playsound('lovers.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+      
 
     if n == 9:
       numeros.append(n)
       print("\nTocando: The Ocean")
       playsound('theocean.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
+
 
     if n == 10:
       numeros.append(n)
       print("\nTocando: Dimple")
       playsound('dimple.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
 
+  sair = input(str("\n Deseja sair?\n Pressione S para sair."))
   n = randint(0,10)
 
   
