@@ -16,8 +16,8 @@ while sair != 's':
   else:   
     if n == 0:
       numeros.append(n)
-      print("\nTocando: Come To Me")
-      playsound('cometome.mp3')
+      print("\nTocando: Close To You")
+      playsound('close.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0, 10)
       numeros.append(n)
@@ -38,53 +38,53 @@ while sair != 's':
       n = randint(0,10)
       numeros.append(n)
 
-    if n == 2:
-      numeros.append(n)
-      print("\nTocando: Death Bed")
-      playsound('deathbed.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
-      n = randint(0,10)
-      numeros.append(n)
-
     if n == 3:
       numeros.append(n)
-      print("\nTocando: I Love You Boy")
-      playsound('iloveyouboy.mp3')
+      print("\nTocando: Death Bed")
+      playsound('powfu.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0,10)
       numeros.append(n)
 
     if n == 4:
       numeros.append(n)
-      print("\nTocando: Rosyln")
-      playsound('rosyln.mp3')
+      print("\nTocando: Phobia")
+      playsound('phobia.mp3')
+      sair = str(input("\nSair?\n*Precione S para sair*"))
+      n = randint(0,10)
+      numeros.append(n)
+
+    if n == 5:
+      numeros.append(n)
+      print("\nTocando: Love Shot")
+      playsound('loveshot.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0,10)
       numeros.append(n)
     
-    if n == 5:
-      numeros.append(n)
-      print("\nTocando: Close to you")
-      playsound('closetoyou.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
-      n = randint(0,10)
-      numeros.append(n)
-
     if n == 6:
       numeros.append(n)
-      print("\nTocando: Say something")
-      playsound('saysomething.mp3')
+      print("\nTocando: Dream in a Dream ")
+      playsound('dream.mp3')
+      sair = str(input("\nSair?\n*Precione S para sair*"))
+      n = randint(0,10)
+      numeros.append(n)
+
+    if n == 7:
+      numeros.append(n)
+      print("\nTocando: Shower")
+      playsound('shower.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0,10)
 
-    if n == 7:
+    if n == 8:
       numeros.append(n)
       print("\nTocando: Lovers ")
       playsound('lovers.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0,10)  
 
-    if n == 8:
+    if n == 9:
       numeros.append(n)
       print("\nTocando: The Ocean")
       playsound('theocean.mp3')
@@ -92,21 +92,15 @@ while sair != 's':
       n = randint(0,10)
       numeros.append(n)
 
-    if n == 9:
+    if n == 10:
       numeros.append(n)
-      print("\nTocando: War of Hearts")
-      playsound('warofhearts.mp3')
+      print("\nTocando: Dimple")
+      playsound('dimple.mp3')
       sair = str(input("\nSair?\n*Precione S para sair*"))
       n = randint(0,10)
       numeros.append(n)
     
-    if n == 8:
-      numeros.append(n)
-      print("\nTocando: She's Crazy But She's Mine")
-      playsound('shes-crazy-but-shes-mine.mp3')
-      sair = str(input("\nSair?\n*Precione S para sair*"))
-      n = randint(0,10)
-      numeros.append(n)
+    
     
     
 
