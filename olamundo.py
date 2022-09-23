@@ -10,9 +10,11 @@ print ("Olá, Mundo!")
 
 while sair != 's':
      
-
   if n in numeros:
-     n = randint(0,10)
+    if len(numeros) == 11:
+      print('')
+    else:
+       n = randint(0,10)
    
 
   else:   
