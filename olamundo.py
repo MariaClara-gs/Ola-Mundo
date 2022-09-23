@@ -83,8 +83,8 @@ while sair != 's':
       print("\nTocando: Dimple")
       playsound('dimple.mp3')
 
-  sair = input(str("\n Deseja sair?\n Pressione S para sair ou O para continuar."))
-  n = randint(0,10)
+    sair = input(str("\n Deseja sair?\n Pressione S para sair ou O para continuar."))
+    n = randint(0,10)
 
    
 
