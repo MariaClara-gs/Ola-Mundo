@@ -2,7 +2,7 @@ from playsound import playsound
 from random import randint
 numeros = []
 n = randint(0,10)
-sair = 'o'
+sair = ''
 #***irei adaptá-lo para perguntar se a pessoa deseja escutar as músicas aleatóriamente ou se deseja que o programa pergunte a cada música se ela deseja sair.***
 #***Tentar adaptar para que a pessoa escolha as músicas e monte uma playlist com 5 músicas.(Perguntar se a pessoa quer que pergunte se ela deseja ouvir a música ou não.)
 
@@ -83,7 +83,7 @@ while sair != 's':
       print("\nTocando: Dimple")
       playsound('dimple.mp3')
 
-  sair = input(str("\n Deseja sair?\n Pressione S para sair ou qualquer outra letra para continuar."))
+  sair = input(str("\n Deseja sair?\n Pressione S para sair ou O para continuar."))
   n = randint(0,10)
 
    
