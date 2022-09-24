@@ -50,8 +50,8 @@ while sair != 's':
 
     if n == 5:
       numeros.append(n)
-      print("\nTocando: Love Shot")
-      playsound('loveshot.mp3')
+      print("\nTocando: I Love You Boy")
+      playsound('i.mp3')
       
     
     if n == 6:
