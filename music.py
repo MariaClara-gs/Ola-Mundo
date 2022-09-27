@@ -20,7 +20,7 @@ while sair != 's':
   else:   
     if n == 0:
       numeros.append(n)
-      print("\nTocando: Close To You\033[m")
+      print("\nTocando: Close To You")
       playsound('close.mp3')
       
       
